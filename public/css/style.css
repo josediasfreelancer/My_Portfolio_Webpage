@@ -10,23 +10,47 @@ video {
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
   transition: 1s opacity;
+  opacity: 0.9;
 }
 .stopfade {
   opacity: 0.5;
 }
-#polina button {
-  display: block;
-  width: 80%;
-  padding: 0.4rem;
-  border: none;
-  margin: 1rem auto;
-  font-size: 1.3rem;
-  background: rgba(255, 255, 255, 0.23);
-  color: #fff;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 0.3s background;
-}
 #polina button:hover {
   background: rgba(0, 0, 0, 0.5);
+}
+.fundo {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.backgroundclrmodal {
+  background-color: #191919;
+}
+.whiteclr {
+  color: #fefefe;
+}
+.whiteclrfaded {
+  color: rgba(255, 255, 255, .7);
+}
+.redclr {
+  color: #bf0308;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.redclrphone, a {
+  color: #bf0308;
+}
+.redclrphone:hover, a:hover {
+  color: #ff090f;
+  text-decoration: none;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bf0308;
+  color: white;
+  text-align: center;
+  min-height: 100px;
+  padding-top: 20px;
 }
